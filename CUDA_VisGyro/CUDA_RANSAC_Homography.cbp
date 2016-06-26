@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CUDA_RANSAC_Homography" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/CUDA_RANSAC_Homography" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-march=native" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="/usr/local/cuda/include" />
+		</Compiler>
+		<Linker>
+			<Add library="opencv_core" />
+			<Add library="opencv_highgui" />
+			<Add library="opencv_features2d" />
+			<Add library="opencv_imgproc" />
+			<Add library="opencv_calib3d" />
+			<Add library="cudart" />
+			<Add directory="/usr/local/cuda/lib64" />
+		</Linker>
+		<Unit filename="CUDA_BruteForceMatching.cu">
+			<Option compile="1" />
+			<Option link="1" />
+			<Option compiler="gcc" use="1" buildCommand="/usr/local/cuda/bin/nvcc -c $file -I/usr/local/cuda/include -L/usr/local/cuda/lib64 -o $object -O2" />
+		</Unit>
+		<Unit filename="CUDA_BruteForceMatching.h" />
+		<Unit filename="CUDA_RANSAC_Fundamental.h" />
+		<Unit filename="CUDA_RANSAC_Fundametal.cu" />
+		<Unit filename="CUDA_RANSAC_Homography.cu">
+			<Option compile="1" />
+			<Option link="1" />
+			<Option compiler="gcc" use="1" buildCommand="/usr/local/cuda/bin/nvcc -c $file -I/usr/local/cuda/include -L/usr/local/cuda/lib64 -o $object -O2" />
+		</Unit>
+		<Unit filename="CUDA_RANSAC_Homography.h" />
+		<Unit filename="CUDA_SVD.cu" />
+		<Unit filename="DataTypes.h" />
+		<Unit filename="filter.cpp" />
+		<Unit filename="filter.h" />
+		<Unit filename="include/bearingVector.h" />
+		<Unit filename="include/image_provider.h" />
+		<Unit filename="include/libviso_F.h" />
+		<Unit filename="include/libviso_geometry.h" />
+		<Unit filename="include/matrix.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="matcher.cpp" />
+		<Unit filename="matcher.h" />
+		<Unit filename="src/bearingVector.cpp" />
+		<Unit filename="src/image_provider.cpp" />
+		<Unit filename="src/libviso_F.cpp" />
+		<Unit filename="src/libviso_geometry.cpp" />
+		<Unit filename="src/matrix.cpp" />
+		<Unit filename="triangle.cpp" />
+		<Unit filename="triangle.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

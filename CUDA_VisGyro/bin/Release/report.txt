@@ -1,0 +1,238 @@
+Reading frame: 0
+--------------------------------
+Load images: 0.009 ms
+Convert to greyscale: 0 ms
+Reading frame: 1
+--------------------------------
+Load images: 0 ms
+Convert to greyscale: 0.008 ms
+LibViso Matcher: 38.289 ms number of matched points: 300
+RANSAC Homography (OpenCV): 69.165 ms
+RANSAC Fundamental (GPU): 195.981 ms
+--------------------------------
+Total time: 303.5 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 80
+GPU Inliers: 12
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+2.89301e-07 0.00108301 -0.132404 
+-0.00109361 4.12011e-05 0.664193 
+0.132361 -0.665781 0.283779 
+r:-0.008023 p:-0.003278 y:0.000000
+Reading frame: 2
+--------------------------------
+Load images: 0 ms
+Convert to greyscale: 0 ms
+LibViso Matcher: 43.844 ms number of matched points: 329
+RANSAC Homography (OpenCV): 45.489 ms
+RANSAC Fundamental (GPU): 21.576 ms
+--------------------------------
+Total time: 110.97 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 95
+GPU Inliers: 12
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+7.13217e-07 0.00106187 -0.153682 
+-0.00105664 5.4517e-06 0.661573 
+0.152077 -0.661588 0.279059 
+r:0.007148 p:-0.001561 y:0.000000
+Reading frame: 3
+--------------------------------
+Load images: 0.001 ms
+Convert to greyscale: 0 ms
+LibViso Matcher: 36.784 ms number of matched points: 304
+RANSAC Homography (OpenCV): 60.117 ms
+RANSAC Fundamental (GPU): 22.021 ms
+--------------------------------
+Total time: 118.98 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 91
+GPU Inliers: 12
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+-1.08337e-06 -0.000465246 0.0563923 
+0.000468195 -6.13986e-06 -0.289008 
+-0.054062 0.286902 -0.909977 
+r:-0.007784 p:-0.007010 y:0.000000
+Reading frame: 4
+--------------------------------
+Load images: 0 ms
+Convert to greyscale: 0 ms
+LibViso Matcher: 57.511 ms number of matched points: 272
+RANSAC Homography (OpenCV): 50.694 ms
+RANSAC Fundamental (GPU): 22.263 ms
+--------------------------------
+Total time: 130.535 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 84
+GPU Inliers: 13
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+-5.30223e-08 -0.000684667 0.102204 
+0.000682982 -5.05692e-06 -0.498908 
+-0.101081 0.499584 -0.693428 
+r:0.008527 p:-0.001730 y:0.000000
+Reading frame: 5
+--------------------------------
+Load images: 0 ms
+Convert to greyscale: 0.001 ms
+LibViso Matcher: 38.269 ms number of matched points: 312
+RANSAC Homography (OpenCV): 36.147 ms
+RANSAC Fundamental (GPU): 19.844 ms
+--------------------------------
+Total time: 94.309 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 94
+GPU Inliers: 12
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+4.41049e-07 0.00085153 -0.117483 
+-0.000850391 -8.88156e-06 0.557023 
+0.115951 -0.554947 0.595407 
+r:0.009252 p:0.005146 y:0.000000
+Reading frame: 6
+--------------------------------
+Load images: 0 ms
+Convert to greyscale: 0 ms
+LibViso Matcher: 34.448 ms number of matched points: 319
+RANSAC Homography (OpenCV): 59.296 ms
+RANSAC Fundamental (GPU): 20.21 ms
+--------------------------------
+Total time: 114.003 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 85
+GPU Inliers: 12
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+-1.2318e-06 0.000842977 -0.131267 
+-0.000832689 4.52772e-05 0.501657 
+0.132199 -0.520095 0.665682 
+r:0.009126 p:0.003248 y:0.000000
+Reading frame: 7
+--------------------------------
+Load images: 0 ms
+Convert to greyscale: 0 ms
+LibViso Matcher: 38.478 ms number of matched points: 308
+RANSAC Homography (OpenCV): 44.42 ms
+RANSAC Fundamental (GPU): 19.699 ms
+--------------------------------
+Total time: 102.647 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 88
+GPU Inliers: 13
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+-3.36354e-07 0.000937875 -0.120443 
+-0.000941549 5.15266e-06 0.613391 
+0.121486 -0.612221 -0.468689 
+r:-0.000088 p:-0.003073 y:0.000000
+Reading frame: 8
+--------------------------------
+Load images: 0 ms
+Convert to greyscale: 0.001 ms
+LibViso Matcher: 37.722 ms number of matched points: 288
+RANSAC Homography (OpenCV): 29.963 ms
+RANSAC Fundamental (GPU): 19.806 ms
+--------------------------------
+Total time: 87.536 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 91
+GPU Inliers: 12
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+-1.32504e-06 0.000457247 -0.0595104 
+-0.000456685 -1.5754e-06 0.298764 
+0.0616955 -0.298349 -0.90243 
+r:0.021094 p:-0.010490 y:0.000000
+Reading frame: 9
+--------------------------------
+Load images: 0 ms
+Convert to greyscale: 0 ms
+LibViso Matcher: 36.601 ms number of matched points: 284
+RANSAC Homography (OpenCV): 37.144 ms
+RANSAC Fundamental (GPU): 19.47 ms
+--------------------------------
+Total time: 93.268 ms
+
+Features extracted: 0 0
+OpenCV Inliers: 85
+GPU Inliers: 12
+GPU RANSAC iterations: 2000
+
+RANSAC parameters:
+Confidence: 0.99
+Inliers ratio: 0.4
+Data is normalised: no
+Bias random selection: yes
+
+Fundamental matrix
+-7.89884e-07 0.000615923 -0.0684574 
+-0.000624856 -1.43027e-05 0.430878 
+0.0700047 -0.421996 -0.791629 
+r:-0.002093 p:-0.004460 y:0.000000
