@@ -1,3 +1,4 @@
+version2
 This is the second version of VisGyro code.
 The main differences from the first version:
 Fundamental matrix estimation has been speeded up using GPU implementation.
